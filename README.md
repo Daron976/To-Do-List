@@ -55,7 +55,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Daron976/Webpack-Boilerplate/issues). 
+Feel free to check the [issues page](https://github.com/Daron976/To-Do-List/issues). 
 
 ## Show your support
 
