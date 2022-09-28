@@ -39,7 +39,7 @@
 
 ### Deployment
 
-- Run `npm start` in order to start a local live server.
+- Run `npm start` in an intergrated terminal in order to start a local live server.
 - Or try the [Live Demo](https://livedemo.com) (if available)
 
 
