@@ -84,16 +84,40 @@ form input,
   margin-right: 5px;
 }
 
+.fa-ellipsis-vertical:hover {
+  cursor: move;
+}
+
 .clear-btn {
   width: 25rem;
   padding: 1rem 2rem;
   border: none;
   color: #808080;
+  transition: all;
+  transition-duration: 0.35s;
+}
+
+.clear-btn:hover {
+  font-size: 0.9rem;
+  padding: 1.2rem 2.2rem;
+  cursor: pointer;
+}
+
+.clear-btn:active {
+  background-color: #588870;
+  color: black;
 }
 
 .font-color {
   color: #9f9f9f;
   font-size: 1rem;
+  transition: all;
+  transition-duration: 0.35s;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
 }
 
 .font-color:hover {
@@ -103,6 +127,10 @@ form input,
 
 .display-none {
   display: none;
+}
+
+.line-through {
+  text-decoration: line-through;
 }
 
 ul {
