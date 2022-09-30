@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/Daron976/To-Do-List/issues"
   },
-  "homepage": "https://github.com/Daron976/To-Do-List#readme",
+  "homepage": "https://github.com/Daron976/To-Do-List/dist/index.html",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
