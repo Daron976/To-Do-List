@@ -1,3 +1,5 @@
+/* eslint-disable */ 
+
 export class List {
   constructor() {
     this.itemInformation = [];

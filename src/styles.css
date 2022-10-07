@@ -137,9 +137,9 @@ ul {
   margin: 0;
 }
 
-@media screen and (max-width: 400px){
-  .title-container, 
-  .to-do-list-item, 
+@media screen and (max-width: 400px) {
+  .title-container,
+  .to-do-list-item,
   .clear-btn {
     width: 19rem;
   }

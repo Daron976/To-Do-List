@@ -1,3 +1,5 @@
+/* eslint-disable */ 
+
 import {
   trash,
   dots,
