@@ -10,7 +10,7 @@ export function displayList() {
 
   this.itemInformation.forEach((element) => {
     document.getElementById('ulist').innerHTML += `
-    <li class="to-do-list-item flex">
+    <li class="to-do-list-item flex mobile-width">
       <div class="checkbox-container">
         <input type="checkbox" class="checkbox-input" value=${element.id}>
         <label for="${element.listItem}" class="label"><textarea name="${element.listItem}" class="edit-list test" rows="1">${element.listItem}</textarea></label>
@@ -24,9 +24,6 @@ export function displayList() {
     trash[i].addEventListener('click', (e) => this.remove(e));
     document.getElementsByClassName('edit-list')[i].addEventListener('keydown', (e) => this.edit(e));
     checkboxInput[i].addEventListener('click', (e) => this.completed(e));
-  }
-
-  for (let i = 0; i < dots.length; i += 1) {
     if (this.itemInformation[i].completed === true) {
       checkboxInput[i].toggleAttribute('checked');
       document.getElementsByClassName('edit-list')[i].classList.add('line-through');

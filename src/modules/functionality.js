@@ -6,7 +6,7 @@ import {
   removeListItem,
   updateListItem,
 } from './CRUD';
-import { getLocalStorageItem, setLocalStorageItem } from '../storage';
+import { getLocalStorageItem, setLocalStorageItem } from './storage';
 
 export default class List {
   constructor() {

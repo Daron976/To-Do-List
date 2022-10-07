@@ -39,7 +39,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 25rem;
+  width: 100%;
   padding: 0.5rem;
   height: 4rem;
 }
@@ -55,7 +55,7 @@ form input,
 }
 
 .edit-list {
-  width: 21.5rem;
+  width: 100%;
   resize: none;
   vertical-align: middle;
   line-height: 20px;
@@ -135,4 +135,12 @@ input:focus {
 
 ul {
   margin: 0;
+}
+
+@media screen and (max-width: 400px) {
+  .title-container,
+  .to-do-list-item,
+  .clear-btn {
+    width: 19rem;
+  }
 }
