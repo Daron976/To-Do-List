@@ -10,7 +10,7 @@ export function displayList() {
 
   this.itemInformation.forEach((element) => {
     document.getElementById('ulist').innerHTML += `
-    <li class="to-do-list-item flex">
+    <li class="to-do-list-item flex mobile-width">
       <div class="checkbox-container">
         <input type="checkbox" class="checkbox-input" value=${element.id}>
         <label for="${element.listItem}" class="label"><textarea name="${element.listItem}" class="edit-list test" rows="1">${element.listItem}</textarea></label>
