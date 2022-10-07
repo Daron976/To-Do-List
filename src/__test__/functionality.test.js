@@ -2,8 +2,6 @@
  * @jest-environment jsdom
  */
 
-// jest.mock('../modules/functionality')
-
 document.body.innerHTML = `
 <section class="main-content">
   <div class="wrapper">
