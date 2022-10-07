@@ -24,9 +24,6 @@ export function displayList() {
     trash[i].addEventListener('click', (e) => this.remove(e));
     document.getElementsByClassName('edit-list')[i].addEventListener('keydown', (e) => this.edit(e));
     checkboxInput[i].addEventListener('click', (e) => this.completed(e));
-  }
-
-  for (let i = 0; i < dots.length; i += 1) {
     if (this.itemInformation[i].completed === true) {
       checkboxInput[i].toggleAttribute('checked');
       document.getElementsByClassName('edit-list')[i].classList.add('line-through');
